@@ -43,6 +43,7 @@ public class appoinmentpage extends JFrame {
 	 * Create the frame.
 	 */
 	public appoinmentpage() {
+		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(0, 0, 1600, 900);
 		setAlwaysOnTop(true);
@@ -118,6 +119,12 @@ public class appoinmentpage extends JFrame {
 		Image img3 = new ImageIcon(this.getClass().getResource("/appoin4.png")).getImage();
 		btnNewButton_3.setIcon(new ImageIcon (img3));
 		contentPane.add(btnNewButton_3);
+		
+		JLabel lblNewLabel_1 = new JLabel("APPOINMENTS");
+		lblNewLabel_1.setForeground(new Color(0, 0, 153));
+		lblNewLabel_1.setFont(new Font("Arial", Font.BOLD, 55));
+		lblNewLabel_1.setBounds(478, 26, 493, 71);
+		contentPane.add(lblNewLabel_1);
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setBounds(-419, 0, 2111, 918);
