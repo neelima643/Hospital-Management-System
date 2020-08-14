@@ -107,7 +107,13 @@ public class appoinment extends JFrame{
 						textField_4.setText(rs.getString("bloodgroup"));
 						
 					}
-					
+					if(!rs.first()) {
+						
+						JOptionPane.showMessageDialog(rootPane, "Enter a valid patient ID");
+						textField.setText(null);
+						
+					}
+				
 					
 				}
 				catch (Exception ea) {
@@ -323,6 +329,7 @@ public class appoinment extends JFrame{
 		
 		JDateChooser dateChooser = new JDateChooser();
 		dateChooser.setBounds(256, 378, 477, 26);
+		dateChooser.setFont(new Font("Arial", Font.PLAIN, 18));
 		getContentPane().add(dateChooser);
 		
 		JLabel lblNewLabel_10 = new JLabel("Doctor:");
@@ -364,8 +371,12 @@ public class appoinment extends JFrame{
 						c = r.getInt("count(*)");
 						
 					}
+					
+					
 					int a = 3-c;
-					JOptionPane.showMessageDialog(rootPane, "Only " + a + " slots more!");
+					if(a>=0) {
+						JOptionPane.showMessageDialog(rootPane, "Only " + a + " slots more!");
+					}
 					if(c <=3) {
 					stmnt.executeUpdate("insert into appoinment values('"+patientID+"', '"+date+"', '"+time+"', '"+name+"', '"+gender+"', '"+age+"', '"+address+"', '"+contactno+"','"+bloodgroup+"', '"+department+"', '"+doctor+"')");
 					
