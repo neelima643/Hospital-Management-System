@@ -81,6 +81,7 @@ public class viewdoctor extends JFrame {
 		
 		JDateChooser dateChooser = new JDateChooser();
 		dateChooser.setBounds(330, 115, 164, 30);
+		dateChooser.setFont(new Font("Arial", Font.PLAIN, 18));
 		getContentPane().add(dateChooser);
 		dateChooser.setVisible(false);
 
