@@ -137,9 +137,9 @@ public class patientspage extends JFrame {
 		contentPane.add(btnNewButton_3);
 		
 		JLabel lblNewLabel = new JLabel("PATIENT");
-		lblNewLabel.setForeground(new Color(0, 0, 204));
+		lblNewLabel.setForeground(new Color(0, 0, 153));
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setFont(new Font("Cambria Math", Font.BOLD, 60));
+		lblNewLabel.setFont(new Font("Arial", Font.BOLD, 60));
 		lblNewLabel.setBounds(471, 32, 552, 82);
 		contentPane.add(lblNewLabel);
 
