@@ -141,10 +141,10 @@ public class updateordelete extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				String patientID = textField.getText();
+				int patientID = Integer.parseInt(textField.getText());
 				String name = textField_1.getText();
 				String gender = textField_2.getText();
-				String age = textField_3.getText();
+				int age = Integer.parseInt(textField_3.getText());
 				String contactno = textField_4.getText();
 				String address = textField_5.getText();
 				String bloodgroup = textField_6.getText();
