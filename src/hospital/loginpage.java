@@ -18,6 +18,7 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 import java.awt.SystemColor;
+import java.awt.Color;
 
 public class loginpage extends JFrame {
 
@@ -89,8 +90,10 @@ public class loginpage extends JFrame {
 				if((textField.getText().equals("admin") && passwordField.getText().contentEquals("123"))) {
 					
 					JOptionPane.showMessageDialog(rootPane, "You are successfully logined");
+					setVisible(false);
 					homepage h = new homepage();
 					h.setVisible(true);
+					setVisible(false);
 				}
 				else {
 					
@@ -103,6 +106,7 @@ public class loginpage extends JFrame {
 		contentPane.add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("RESET");
+		btnNewButton_1.setForeground(SystemColor.text);
 		btnNewButton_1.setBackground(SystemColor.textHighlight);
 		Image img3 = new ImageIcon(this.getClass().getResource("/reset.png")).getImage();
 		btnNewButton_1.setIcon(new ImageIcon (img3));
@@ -118,6 +122,7 @@ public class loginpage extends JFrame {
 		contentPane.add(btnNewButton_1);
 		
 		JButton btnNewButton_2 = new JButton("EXIT");
+		btnNewButton_2.setForeground(SystemColor.text);
 		btnNewButton_2.setBackground(SystemColor.textHighlight);
 		Image img4 = new ImageIcon(this.getClass().getResource("/exitskyblue.jpg")).getImage();
 		btnNewButton_2.setIcon(new ImageIcon (img4));
@@ -133,11 +138,17 @@ public class loginpage extends JFrame {
 		btnNewButton_2.setFont(new Font("Arial", Font.BOLD, 18));
 		btnNewButton_2.setBounds(1353, 367, 128, 59);
 		contentPane.add(btnNewButton_2);
-		Image img5 = new ImageIcon(this.getClass().getResource("/symbol.png")).getImage();
+
 		
 		
 		JLabel lblNewLabel_2 = new JLabel("");
 		Image img1 = new ImageIcon(this.getClass().getResource("/login.jpg")).getImage();
+		
+		JLabel lblNewLabel_3 = new JLabel("HOSPITAL MANAGEMENT SYSTEM");
+		lblNewLabel_3.setForeground(new Color(0, 0, 153));
+		lblNewLabel_3.setFont(new Font("Arial", Font.BOLD, 65));
+		lblNewLabel_3.setBounds(318, 10, 1114, 94);
+		contentPane.add(lblNewLabel_3);
 		
 
 		lblNewLabel_2.setIcon(new ImageIcon (img1));
