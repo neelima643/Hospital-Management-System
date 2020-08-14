@@ -92,6 +92,7 @@ public class viewappoinment extends JFrame {
 		
 		JDateChooser dateChooser = new JDateChooser();
 		dateChooser.setBounds(365, 94, 168, 24);
+		dateChooser.setFont(new Font("Arial", Font.PLAIN, 18));
 		getContentPane().add(dateChooser);
 		dateChooser.setVisible(false);
 		
@@ -179,6 +180,8 @@ public class viewappoinment extends JFrame {
 		getContentPane().add(scrollPane);
 		
 		table = new JTable();
+
+
 		scrollPane.setViewportView(table);
 		
 		JButton btnNewButton_2 = new JButton("EXIT");
