@@ -150,7 +150,7 @@ public class prescription extends JFrame {
 		JLabel lblNewLabel_5 = new JLabel("Blood Group:");
 		lblNewLabel_5.setFont(new Font("Arial", Font.BOLD, 18));
 		lblNewLabel_5.setForeground(SystemColor.text);
-		lblNewLabel_5.setBounds(57, 354, 102, 21);
+		lblNewLabel_5.setBounds(57, 354, 132, 21);
 		getContentPane().add(lblNewLabel_5);
 		
 		JLabel lblNewLabel_4 = new JLabel("Address:");
@@ -347,7 +347,7 @@ public class prescription extends JFrame {
 		});
 		btnNewButton_1.setFont(new Font("Arial", Font.BOLD, 18));
 		btnNewButton_1.setForeground(Color.BLACK);
-		btnNewButton_1.setBounds(588, 676, 145, 41);
+		btnNewButton_1.setBounds(296, 676, 145, 41);
 		getContentPane().add(btnNewButton_1);
 		
 		JLabel lblNewLabel_9 = new JLabel("Date:");
@@ -463,6 +463,20 @@ public class prescription extends JFrame {
 		JLabel lblNewLabel_8 = new JLabel("");
 		lblNewLabel_8.setForeground(SystemColor.window);
 		Image img1 = new ImageIcon(this.getClass().getResource("/pwi.jpg")).getImage();
+		
+		JButton btnNewButton_4 = new JButton("EXIT");
+		Image img6 = new ImageIcon(this.getClass().getResource("/exiticon.jpg")).getImage();
+		btnNewButton_4.setIcon(new ImageIcon (img6));
+		btnNewButton_4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				setVisible(false);
+				
+			}
+		});
+		btnNewButton_4.setFont(new Font("Arial", Font.BOLD, 18));
+		btnNewButton_4.setBounds(619, 676, 114, 41);
+		getContentPane().add(btnNewButton_4);
 		lblNewLabel_8.setIcon(new ImageIcon (img1));
 		lblNewLabel_8.setBounds(0, 0, 796, 727);
 		getContentPane().add(lblNewLabel_8);
