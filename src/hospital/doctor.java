@@ -23,6 +23,7 @@ import java.awt.event.ActionEvent;
 import java.awt.SystemColor;
 import com.toedter.calendar.JDateChooser;
 import javax.swing.UIManager;
+import javax.swing.SwingConstants;
 
 public class doctor extends JFrame {
 
@@ -64,6 +65,7 @@ public class doctor extends JFrame {
 		getContentPane().setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("GENERAL MEDICINE");
+		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setBackground(SystemColor.control);
 		lblNewLabel.setForeground(SystemColor.text);
 		lblNewLabel.setFont(new Font("Arial", Font.BOLD, 20));
@@ -204,37 +206,37 @@ public class doctor extends JFrame {
 		lblNewLabel_25.setBounds(618, 740, 73, 27);
 		getContentPane().add(lblNewLabel_25);
 		
-		JLabel lblNewLabel_26 = new JLabel("Mon-Fri - 9am - 12 pm");
+		JLabel lblNewLabel_26 = new JLabel("Mon-Fri  9am - 12 pm");
 		lblNewLabel_26.setForeground(SystemColor.text);
 		lblNewLabel_26.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_26.setBounds(327, 47, 220, 21);
 		getContentPane().add(lblNewLabel_26);
 		
-		JLabel lblNewLabel_27 = new JLabel("Mon-Fri -  2pm - 5pm");
+		JLabel lblNewLabel_27 = new JLabel("Mon-Fri  2pm - 5pm");
 		lblNewLabel_27.setForeground(SystemColor.text);
 		lblNewLabel_27.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_27.setBounds(327, 77, 220, 20);
 		getContentPane().add(lblNewLabel_27);
 		
-		JLabel lblNewLabel_28 = new JLabel("Mon-Fri - 9pm -5pm");
+		JLabel lblNewLabel_28 = new JLabel("Mon-Fri  9pm -5pm");
 		lblNewLabel_28.setForeground(SystemColor.text);
 		lblNewLabel_28.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_28.setBounds(327, 107, 220, 21);
 		getContentPane().add(lblNewLabel_28);
 		
-		JLabel lblNewLabel_29 = new JLabel("Mon-Fri - 9am - 12 pm");
+		JLabel lblNewLabel_29 = new JLabel("Mon-Fri  9am - 12 pm");
 		lblNewLabel_29.setForeground(SystemColor.text);
 		lblNewLabel_29.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_29.setBounds(327, 194, 208, 18);
 		getContentPane().add(lblNewLabel_29);
 		
-		JLabel lblNewLabel_30 = new JLabel("Mon-Fri -  2pm - 5pm");
+		JLabel lblNewLabel_30 = new JLabel("Mon-Fri  2pm - 5pm");
 		lblNewLabel_30.setForeground(SystemColor.text);
 		lblNewLabel_30.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_30.setBounds(327, 220, 220, 21);
 		getContentPane().add(lblNewLabel_30);
 		
-		JLabel lblNewLabel_31 = new JLabel("Mon-Fri - 9am - 12 pm");
+		JLabel lblNewLabel_31 = new JLabel("Mon-Fri  9am - 12 pm");
 		lblNewLabel_31.setForeground(SystemColor.text);
 		lblNewLabel_31.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_31.setBounds(327, 286, 233, 19);
@@ -246,49 +248,49 @@ public class doctor extends JFrame {
 		lblNewLabel_32.setBounds(327, 309, 233, 21);
 		getContentPane().add(lblNewLabel_32);
 		
-		JLabel lblNewLabel_33 = new JLabel("Mon-Fri - 9am - 12 pm");
+		JLabel lblNewLabel_33 = new JLabel("Mon-Fri  9am - 12 pm");
 		lblNewLabel_33.setForeground(SystemColor.text);
 		lblNewLabel_33.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_33.setBounds(327, 371, 220, 19);
 		getContentPane().add(lblNewLabel_33);
 		
-		JLabel lblNewLabel_34 = new JLabel("Mon-Fri -  2pm - 5pm");
+		JLabel lblNewLabel_34 = new JLabel("Mon-Fri  2pm - 5pm");
 		lblNewLabel_34.setForeground(SystemColor.text);
 		lblNewLabel_34.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_34.setBounds(327, 402, 220, 19);
 		getContentPane().add(lblNewLabel_34);
 		
-		JLabel lblNewLabel_35 = new JLabel("Mon-Fri - 9am - 12 pm");
+		JLabel lblNewLabel_35 = new JLabel("Mon-Fri  9am - 12 pm");
 		lblNewLabel_35.setForeground(SystemColor.text);
 		lblNewLabel_35.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_35.setBounds(327, 464, 220, 19);
 		getContentPane().add(lblNewLabel_35);
 		
-		JLabel lblNewLabel_36 = new JLabel("Mon-Fri -  2pm - 5pm");
+		JLabel lblNewLabel_36 = new JLabel("Mon-Fri  2pm - 5pm");
 		lblNewLabel_36.setForeground(SystemColor.text);
 		lblNewLabel_36.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_36.setBounds(327, 494, 220, 21);
 		getContentPane().add(lblNewLabel_36);
 		
-		JLabel lblNewLabel_37 = new JLabel("Mon-Fri - 9am - 12 pm");
+		JLabel lblNewLabel_37 = new JLabel("Mon-Fri  9am - 12 pm");
 		lblNewLabel_37.setForeground(SystemColor.text);
 		lblNewLabel_37.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_37.setBounds(327, 559, 233, 19);
 		getContentPane().add(lblNewLabel_37);
 		
-		JLabel lblNewLabel_38 = new JLabel("Mon-Fri -  2pm - 5pm");
+		JLabel lblNewLabel_38 = new JLabel("Mon-Fri  2pm - 5pm");
 		lblNewLabel_38.setForeground(SystemColor.text);
 		lblNewLabel_38.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_38.setBounds(327, 583, 233, 19);
 		getContentPane().add(lblNewLabel_38);
 		
-		JLabel lblNewLabel_39 = new JLabel("Mon-Fri - 9am - 12 pm");
+		JLabel lblNewLabel_39 = new JLabel("Mon-Fri  9am - 12 pm");
 		lblNewLabel_39.setForeground(SystemColor.text);
 		lblNewLabel_39.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_39.setBounds(327, 661, 220, 19);
 		getContentPane().add(lblNewLabel_39);
 		
-		JLabel lblNewLabel_40 = new JLabel("Mon-Fri -  2pm - 5pm");
+		JLabel lblNewLabel_40 = new JLabel("Mon-Fri  2pm - 5pm");
 		lblNewLabel_40.setForeground(SystemColor.text);
 		lblNewLabel_40.setFont(new Font("Arial", Font.BOLD, 16));
 		lblNewLabel_40.setBounds(327, 684, 220, 21);
@@ -447,6 +449,7 @@ public class doctor extends JFrame {
 		
 		JDateChooser dateChooser = new JDateChooser();
 		dateChooser.setBounds(711, 740, 174, 27);
+		dateChooser.setFont(new Font("Arial", Font.PLAIN, 18));
 		getContentPane().add(dateChooser);
 
 		
