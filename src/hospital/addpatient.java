@@ -50,6 +50,7 @@ public class addpatient extends JFrame {
 	 * Create the application.
 	 */
 	public addpatient() {
+		
 		setResizable(false);
 		setAlwaysOnTop(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
