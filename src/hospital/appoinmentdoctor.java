@@ -74,6 +74,7 @@ public class appoinmentdoctor extends JFrame {
 		
 		JDateChooser dateChooser = new JDateChooser();
 		dateChooser.setBounds(259, 95, 308, 24);
+		dateChooser.setFont(new Font("Arial", Font.PLAIN, 18));
 		getContentPane().add(dateChooser);
 		dateChooser.setVisible(false);
 		
