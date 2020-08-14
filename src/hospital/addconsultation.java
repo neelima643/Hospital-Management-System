@@ -163,6 +163,7 @@ public class addconsultation extends JFrame {
 		
 		JDateChooser dateChooser = new JDateChooser();
 		dateChooser.setBounds(309, 156, 400, 25);
+		dateChooser.setFont(new Font("Arial", Font.PLAIN, 18));
 		getContentPane().add(dateChooser);
 		
 		JRadioButton rdbtnNewRadioButton = new JRadioButton("Yes");
@@ -176,7 +177,7 @@ public class addconsultation extends JFrame {
 				}
 			}
 		});
-		rdbtnNewRadioButton.setFont(new Font("Arial", Font.BOLD, 16));
+		rdbtnNewRadioButton.setFont(new Font("Arial", Font.BOLD, 18));
 		rdbtnNewRadioButton.setBounds(309, 508, 160, 21);
 		getContentPane().add(rdbtnNewRadioButton);
 		
@@ -190,17 +191,16 @@ public class addconsultation extends JFrame {
 				}
 			}
 		});
-		rdbtnNewRadioButton_1.setFont(new Font("Arial", Font.BOLD, 16));
+		rdbtnNewRadioButton_1.setFont(new Font("Arial", Font.BOLD, 18));
 		rdbtnNewRadioButton_1.setBounds(557, 508, 152, 21);
 		getContentPane().add(rdbtnNewRadioButton_1);
 		
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(64, 79, 645, 47);
+		scrollPane.setBounds(109, 80, 562, 47);
 		getContentPane().add(scrollPane);
 		
 		table = new JTable();
 		scrollPane.setViewportView(table);
-		table.setFont(new Font("Arial", Font.BOLD, 14));
 		table.setRowHeight(table.getRowHeight() + 20);
 		table.setModel(new DefaultTableModel(
 			new Object[][] {
